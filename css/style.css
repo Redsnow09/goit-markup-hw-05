@@ -112,6 +112,17 @@ img {
   color: var(--footer-color);
 }
 
+.menu-item::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px; 
+  height: 4px; 
+  border-radius: 2px;
+  background-color: var(--buttom-color)
+
+}
+
 .address {
   font-style: normal;
   margin-left: auto;
