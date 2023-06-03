@@ -515,6 +515,11 @@ background-color: var(--buttom-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--btn-edging);
   }
+
+  .icon-close:hover,
+  .icon-close:focus{
+    fill: #ffffff;
+  }
 /**---------FOOTER--------**/
 .footer {
   padding: 100px 0;
