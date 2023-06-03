@@ -442,6 +442,7 @@ background-color: var(--buttom-color);
 .item-link {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .portfolio-title {
@@ -452,10 +453,16 @@ background-color: var(--buttom-color);
   margin-bottom: 8px;
   color: var(--footer-color);
 }
+
+.portfolio-text:hover,
+.portfolio-text:focus {
+  transform: translateY(0%); 
+}
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  
   color: var(--menu-color);
 }
 .div-text {
