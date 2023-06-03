@@ -111,8 +111,11 @@ img {
   display: block;
   color: var(--footer-color);
 }
+.menu-lodo {
+  color: var(--buttom-color);
+}
 
-.menu-item::after {
+.menu-lodo::after {
   content: '';
   position: absolute;
   left: 0;
