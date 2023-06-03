@@ -114,7 +114,7 @@ img {
 }
 
 
-.menu-lodo::after {
+.menu-item::after {
   content: '';
   position: absolute;
   left: 0;
