@@ -98,7 +98,8 @@ img {
 }
 
 .menu-item:hover,
-.menu-item:focus {
+.menu-item:focus,
+.menu-item.current {
   color: var(--buttom-color);
 }
 
